@@ -59,9 +59,10 @@ body {
 /* İkinci bölüm kartları için renkler */
 h2.ikinci-baslik + .uzanti-karti { border-left: 5px solid #dfa70e; }
 h2.ikinci-baslik + .uzanti-karti + .uzanti-karti { border-left: 5px solid #cbdd26; }
-h2.ikinci-baslik + .uzanti-karti + .uzanti-karti + .uzanti-karti { border-left: 5px solid #3fdf0e; }
-h2.ikinci-baslik + .uzanti-karti + .uzanti-karti + .uzanti-karti + .uzanti-karti { border-left: 5px solid #df0ebc; }
-h2.ikinci-baslik + .uzanti-karti + .uzanti-karti + .uzanti-karti + .uzanti-karti + .uzanti-karti { border-left: 5px solid #ca5c31; }
+h2.ikinci-baslik + .uzanti-karti + .uzanti-karti + .uzanti-karti { border-left: 5px solid #4a90e2; }
+h2.ikinci-baslik + .uzanti-karti + .uzanti-karti + .uzanti-karti + .uzanti-karti { border-left: 5px solid #3fdf0e; }
+h2.ikinci-baslik + .uzanti-karti + .uzanti-karti + .uzanti-karti + .uzanti-karti + .uzanti-karti { border-left: 5px solid #df0ebc; }
+h2.ikinci-baslik + .uzanti-karti + .uzanti-karti + .uzanti-karti + .uzanti-karti + .uzanti-karti + .uzanti-karti { border-left: 5px solid #ca5c31; }
 
 .uzanti-karti {
     background-color: white;
