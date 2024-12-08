@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    background-image: radial-gradient(#84b3f070 2px, transparent 2px);
+    background-size: 30px 30px;
+    background-position: -5px -5px;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Öğrenci Bilgileri Bölümü */
+.ogrenci-bilgileri {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.bilgiler h1 {
+    color: #1a73e8;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.bilgiler p {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Alan Adı Uzantıları Bölümü */
+.alan-adi-uzantilari h2 {
+    color: #1a73e8;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e0e0e0;
+    font-size: 1.8em;
+}
+
+.uzanti-karti:nth-child(1) { border-left: 5px solid #FF6B6B; }
+.uzanti-karti:nth-child(2) { border-left: 5px solid #4ECDC4; }
+.uzanti-karti:nth-child(3) { border-left: 5px solid #2f3d41; }
+.uzanti-karti:nth-child(4) { border-left: 5px solid #96CEB4; }
+.uzanti-karti:nth-child(5) { border-left: 5px solid #7ddf0e; }
+
+/* İkinci bölüm kartları için renkler */
+h2.ikinci-baslik + .uzanti-karti { border-left: 5px solid #dfa70e; }
+h2.ikinci-baslik + .uzanti-karti + .uzanti-karti { border-left: 5px solid #cbdd26; }
+h2.ikinci-baslik + .uzanti-karti + .uzanti-karti + .uzanti-karti { border-left: 5px solid #3fdf0e; }
+h2.ikinci-baslik + .uzanti-karti + .uzanti-karti + .uzanti-karti + .uzanti-karti { border-left: 5px solid #df0ebc; }
+h2.ikinci-baslik + .uzanti-karti + .uzanti-karti + .uzanti-karti + .uzanti-karti + .uzanti-karti { border-left: 5px solid #ca5c31; }
+
+.uzanti-karti {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.uzanti-karti:hover {
+    transform: translateX(10px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    background: linear-gradient(to right, white, #ffffff, #f8f9fa);
+}
+
+.uzanti-karti h3 {
+    color: #1a73e8;
+    margin-bottom: 10px;
+}
+
+.uzanti-karti p {
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Başlık ikonları için stil */
+.fas {
+    margin-right: 10px;
+    color: #1a73e8;
+}
+
+/* Ayraç stil */
+.ayrac {
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(to right, #1a73e8, #4ECDC4);
+    margin: 10px auto 15px auto;
+    border-radius: 2px;
+}
+
+/* Kartların ikonları için özel stil */
+.uzanti-karti h3 .fas {
+    font-size: 1.2em;
+    width: 30px;
+    text-align: center;
+}
+
+/* İkon animasyonu */
+.uzanti-karti:hover .fas {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+/* İkinci başlık için ekstra stil */
+.ikinci-baslik {
+    margin-top: 50px;
+}
+
+/* Yeni kartlar için renkler */
+.uzanti-karti:nth-child(6) { border-left: 5px solid #FF9A8B; }
+.uzanti-karti:nth-child(7) { border-left: 5px solid #88D8B0; }
+.uzanti-karti:nth-child(8) { border-left: 5px solid #FFC75F; }
+.uzanti-karti:nth-child(9) { border-left: 5px solid #FF6B6B; }
+.uzanti-karti:nth-child(10) { border-left: 5px solid #6C5CE7; } 
